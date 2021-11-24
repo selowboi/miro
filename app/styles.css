@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium-Italic;
+    src: url('../fonts/Montserrat-MediumItalic.ttf');
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#navigation div {
+    width: 100%;
+    text-align: center;
+    background-color: #CEE3F6;
+    vertical-align:bottom;
+    line-height:80px;
+}
+
+#navigation img {
+    position:absolute;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+}
+
+#navigation ul{
+    list-style-type: none;
+}
+
+#navigation ul li{
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+    vertical-align:bottom;
+    line-height:normal;  
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#down-arrow {
+    width: 100px;
+    height: 100px;
+
+    background-image: url('../assets/downarrow.png');
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.text-vertical {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#monster {
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pl-1 {
+    padding-left: 100px;
+}
+
+#beer img {
+    width: 70%;
+}
+
+#about-text {
+    padding-top: 200px;
+}
+
+.title {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+}
+
+.title-2 {
+    font-family: Montserrat-Medium-Italic;
+    font-size: 30px;
+}
+
+.text-medium {
+    font-family: Montserrat-Medium;
+}
+
+.ml {
+    margin-left: 50px;
+}
+
+#intro {
+    position: absolute;
+    top: 3700px;
+    right: 100px;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.m-auto {
+    margin: auto;
+}   
+
+.container-fluid {
+    width: 100%;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.icon {
+    width: 50px;
+    text-decoration: none !important;
+    border: 0 !important;
+    outline: none;
+    border-width: 0px;
+    outline-width:0px;
+    border-bottom: none;
+}
+
+.text-dark {
+    color: black;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.p-4 {
+    padding: 40px;
+}
+
+#flux {
+    padding-top: 600px;
+}
+
+#me {
+    width: 670px;
+    height: 1000px;
+    background-image: url("../assets/me.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+#bintang-title {
+    padding-top: 300px;
+    text-align: right;
+    font-size: 48px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
